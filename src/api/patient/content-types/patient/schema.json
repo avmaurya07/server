@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "patients",
+  "info": {
+    "singularName": "patient",
+    "pluralName": "patients",
+    "displayName": "patient",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "text"
+    },
+    "phoneNumber": {
+      "type": "biginteger"
+    },
+    "dateOfAppoinment": {
+      "type": "date"
+    },
+    "feePaid": {
+      "type": "boolean",
+      "default": false
+    },
+    "visitedToDoctor": {
+      "type": "boolean",
+      "default": false
+    },
+    "DoctorName": {
+      "type": "text"
+    },
+    "exercise": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
